@@ -1,0 +1,37 @@
+/*rellenar los comentarios explicando que hace cada linea*/
+.caja1{
+    width: 200px;/*ancho de la caja */
+    height: 100px;/*alto de la caja */
+    background-color: red;/*color de fondo de la caja */
+    border:2px solid green;/*color del borde de la caja */
+}
+    
+/*¿que le falta a los estilos de la caja 2 para que funcione?*/
+.caja2{
+    width: 150px;/*ancho de la caja */
+    height: 150px;/*alto de la caja  */
+    background-color:yellow;/*color de fondo de la caja */
+    border:2px dotted orange;/*color del borde de la caja */
+}
+
+.caja3{
+    width: 200px;/*ancho de la caja  */
+    height: 200px;/*alto de la caja  */
+    background-color:blue;/*color de fondo de la caja */
+    border-radius: 50%;/*generar un radio a los boder */
+    border:2px solid black;/*color del borde de la caja  */
+}
+
+/*escribi los estilos para que la caja 4 sea rectangular, marron y tenga borde rosa*/
+/*completa los estilos para que el sitio sea responsive*/
+.caja4{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid pink;
+}
+@media all and (min-width:600px) and (max-width: 1023px)/*vista tablet*/{}
+@media all and (max-width: 599px)/*vista celular*/{}
+
+@media (min-width: 600px) {}
+
